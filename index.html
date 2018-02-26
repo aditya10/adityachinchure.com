@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="design.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='assets/jquery.mousewheel.js'></script>
+        <script>
+            $(function() {
+                $(".scrollable").wrapInner("<table><tr>");
+                $(".page").wrap("<td></td>");
+                $(".page2").wrap("<td></td>");
+                $(".page3").wrap("<td></td>");
+                $(".page4").wrap("<td></td>");
+                $(".page5").wrap("<td></td>");
+                $(".page6").wrap("<td></td>");
+                $(".page7").wrap("<td></td>");
+                $("html, body").mousewheel(function(event, delta) {
+			     this.scrollLeft -= (delta * 50);
+			     event.preventDefault();
+                });
+                $("html, body").DOMMouseScroll(function(event, delta) {
+			     this.scrollLeft -= (delta * 50);
+			     event.preventDefault();
+                });
+                $("html, body").onmousewheel(function(event, delta) {
+			     this.scrollLeft -= (delta * 50);
+			     event.preventDefault();
+                });
+            });
+        </script>
+		<title>Aditya Chinchure</title>
+	</head>
+	<body>
+            <div class="scrollable">
+            
+                <div class="page">
+                    <div id="one">
+                        <div id="one-one">
+                            <img src="assets/aditya.png">
+                        </div>
+                        <div id="one-two">
+                            Hey, I’m Adi.
+                            <br><br>
+                            I’m a Computer Science student at UBC.
+                            <br><br>
+                            I code, photograph, and occasionally write on my tech blog.
+                            <br><br>
+                            Scroll ahead to read my story.
+                        </div>
+                        <div id="one-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page2">
+                    <div id="two">
+                        <div id="two-one">
+                        </div>
+                        <div id="two-two">
+                            I grew up in India.
+                            <br><br>
+                            I travelled across the country and  experieced the various cultures that make up the land.
+                            <br><br>
+                            Through my journey, I made tons of friends. With their help, I started to code.
+                            <br><br>
+                            My school was encouraging. I was elected School Captain, and I grew to become a confident public speaker. I got plenty of avenues to share my talent.
+                            <br><br>
+                            Then, I moved to Vancouver, Canada. 
+                        </div>
+                        <div id="two-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page3">
+                    <div id="three">
+                        <div id="three-one">
+                        </div>
+                        <div id="three-two">
+                            Today, I’m in my second year of CS at UBC.
+                            <br><br>
+                            I develop highly personalised websites for realtors at WebCreative.
+                            <br><br>
+                            I work with IdeasXChange as their Marketing Director and social media manager.
+                            <br><br>
+                            Oh, and I also photograph. Let me tell you… 
+                        </div>
+                        <div id="three-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page4">
+                    <div id="four">
+                        <div id="four-one">
+                        </div>
+                        <div id="four-two">
+                            I got my hands on a DSLR in February 2017.
+                            <br><br>
+                            I started uploading to Unsplash.
+                            <br><br>
+                            In a few months, my photos were viewed over 3 million times and downloaded over 10,000 times.
+                            <br><br>
+                            I have a growing Instagram page too. 
+                        </div>
+                        <div id="four-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page5">
+                    <div id="five">
+                        <div id="five-one">
+                        </div>
+                        <div id="five-two">
+                            I like making websites. Front-end is my forte.
+                            <br><br>
+                            This website has been designed by me entirely. I use Sketch App.
+                            <br><br>
+                            I believe in minimal design and simple interactions.
+                            <br><br>
+                            I am well versed with HTML5 and CSS3. I also know JS and JQuery, but I believe in learning as I go.
+                        </div>
+                        <div id="five-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page6">
+                    <div id="six">
+                        <div id="six-one">
+                        </div>
+                        <div id="six-two">
+                            Eventually, I want to make AI for autonomous vehicles.
+                            <br><br>
+                            My goal is to make the roads of India and other developing countries safer with the use of artificial intellignece.
+                        </div>
+                        <div id="six-three">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page7">
+                    <div id="seven">
+                        <div id="seven-one">
+                        </div>
+                        <div id="seven-two">
+                            I keep tab on latest tech developments.
+                            Read my blog: Technonerds.
+                            <br><br>
+                            I publish my photos on Unsplash and Instagram. Give them some love.
+                            <br><br>
+                            I push code to GitHub once in a while. Check it out: GitHub.
+                            <br><br>
+                            I’m a millenial. Don’t email me. Message me on LinkedIn or Facebook.
+                            <br><br>
+                            Jk, here’s my email too. Professionalism.
+                        </div>
+                        <div id="seven-three">
+                        </div>
+                    </div>
+                </div>
+            
+                
+            </div>
+	</body>
+</html>

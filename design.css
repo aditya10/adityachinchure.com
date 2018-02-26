@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "MuseoSans";
+    src: url("assets/MuseoSans-700-Italic.otf") format("opentype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.scrollable{
+
+}
+.scrollable .page{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.scrollable #one{
+    display: table-row;
+    height: 100vh;
+}
+.scrollable #one-one{
+    display: table-cell;
+    width: 30vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #one-one img{
+    width: 70%;
+    height: auto;
+}
+.scrollable #one-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #594790;
+}
+.scrollable #one-three{
+    display: table-cell;
+    width: 20vw;
+}
+
+
+
+
+
+.scrollable .page2{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #F7BC38;
+}
+.scrollable #two{
+    display: table-row;
+    height: 100vh;
+    background-color: #F7BC38;
+}
+.scrollable #two-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #two-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #FFF;
+}
+.scrollable #two-three{
+    display: table-cell;
+    width: 40vw;
+}
+
+
+
+.scrollable .page3{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #EFECC8;
+}
+.scrollable #three{
+    display: table-row;
+    height: 100vh;
+    background-color: #EFECC8;
+}
+.scrollable #three-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #three-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #F7A035;
+}
+.scrollable #three-three{
+    display: table-cell;
+    width: 40vw;
+}
+
+
+.scrollable .page4{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #83C4D7;
+}
+.scrollable #four{
+    display: table-row;
+    height: 100vh;
+    background-color: #83C4D7;
+}
+.scrollable #four-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #four-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #FFF;
+}
+.scrollable #four-three{
+    display: table-cell;
+    width: 40vw;
+}
+
+
+
+.scrollable .page5{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #594790;
+}
+.scrollable #five{
+    display: table-row;
+    height: 100vh;
+    background-color: #594790;
+}
+.scrollable #five-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #five-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #EFECC8;
+}
+.scrollable #five-three{
+    display: table-cell;
+    width: 40vw;
+}
+
+
+.scrollable .page6{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #38C3BC;
+}
+.scrollable #six{
+    display: table-row;
+    height: 100vh;
+    background-color: #38C3BC;
+}
+.scrollable #six-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #six-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 36px;
+    font-family: "MuseoSans";
+    color: #2B2E2D;
+}
+.scrollable #six-three{
+    display: table-cell;
+    width: 40vw;
+}
+
+
+.scrollable .page7{
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #DF571B;
+}
+.scrollable #seven{
+    display: table-row;
+    height: 100vh;
+    background-color: #DF571B;
+}
+.scrollable #seven-one{
+    display: table-cell;
+    width: 10vw;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.scrollable #seven-two{
+    display: table-cell;
+    width: 50vw;
+    vertical-align: middle;
+    font-size: 32px;
+    font-family: "MuseoSans";
+    color: #FFF;
+}
+.scrollable #seven-three{
+    display: table-cell;
+    width: 40vw;
+}
