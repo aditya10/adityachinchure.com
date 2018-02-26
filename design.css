@@ -121,7 +121,22 @@ body{
 .scrollable #three-three{
     display: table-cell;
     width: 40vw;
+    vertical-align: middle;
 }
+.scrollable #three-three img{
+    width: 40%;
+    padding-left: 10%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, -0px); }    
+}
+
 
 
 .scrollable .page4{
