@@ -16,13 +16,15 @@ body{
 .scrollable .page{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
 }
 .scrollable #one{
     display: table-row;
     height: 100vh;
+    
 }
 .scrollable #one-one{
     display: table-cell;
@@ -56,7 +58,8 @@ body{
 .scrollable .page2{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #F7BC38;
@@ -92,7 +95,8 @@ body{
 .scrollable .page3{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #EFECC8;
@@ -142,7 +146,8 @@ body{
 .scrollable .page4{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #83C4D7;
@@ -171,6 +176,12 @@ body{
 .scrollable #four-three{
     display: table-cell;
     width: 40vw;
+    vertical-align: middle;
+}
+.scrollable #four-three #insta{
+    width: 60%;
+    padding: 20%;
+    pointer-events:none;
 }
 
 
@@ -178,7 +189,8 @@ body{
 .scrollable .page5{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #594790;
@@ -207,13 +219,19 @@ body{
 .scrollable #five-three{
     display: table-cell;
     width: 40vw;
+    vertical-align: middle;
+}
+.scrollable #five-three img{
+    width: 60%;
+    padding-left: 20%;
 }
 
 
 .scrollable .page6{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #38C3BC;
@@ -248,7 +266,8 @@ body{
 .scrollable .page7{
     display: inline-block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    max-height: 100%;
     margin: 0;
     padding: 0;
     background-color: #DF571B;
