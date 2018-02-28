@@ -192,6 +192,25 @@ body{
     font-family: "MuseoSans";
     color: #FFF;
 }
+.scrollable #four-two a{
+    color: #FFF;
+    display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+    text-decoration: none;
+}
+.scrollable #four-two a:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 30px;
+	background: #FFF;
+	transition: width .4s ease, background-color .4s ease;
+}
+.scrollable #four-two a:hover:after {
+	width: 100%;
+	background: #FFF;
+}
 .scrollable #four-three{
     display: table-cell;
     width: 40vw;
