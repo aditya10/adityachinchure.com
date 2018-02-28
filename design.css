@@ -293,6 +293,9 @@ body{
     font-family: "MuseoSans";
     color: #FFF;
 }
+.scrollable #seven-two a{
+    color: #fff;
+}
 .scrollable #seven-three{
     display: table-cell;
     width: 40vw;

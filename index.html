@@ -29,6 +29,29 @@
                 });
             });
         </script>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId            : 'your-app-id',
+              autoLogAppEvents : true,
+              xfbml            : true,
+              version          : 'v2.12'
+            });
+          };
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "https://connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-customerchat"
+             page_id="588018094638023"
+             logged_in_greeting="The fastest way to connect with me (Aditya) is via this chat. Hit me up!"
+             logged_out_greeting="The fastest way to connect with me (Aditya) is via this chat. Hit me up!"
+             >
+        </div>
 		<title>Aditya Chinchure</title>
 	</head>
 	<body>
@@ -154,7 +177,7 @@
                             I keep tab on latest tech developments.
                             Read my blog: Technonerds.
                             <br><br>
-                            I publish my photos on Unsplash and Instagram. Give them some love.
+                            I publish my photos on <a href="https://unsplash.com/@adityachinchure">Unsplash</a> and <a href="">Instagram</a>. Give them some love.
                             <br><br>
                             I push code to GitHub once in a while. Check it out: GitHub.
                             <br><br>
@@ -166,8 +189,6 @@
                         </div>
                     </div>
                 </div>
-            
-                
             </div>
 	</body>
 </html>
