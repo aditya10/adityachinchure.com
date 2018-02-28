@@ -124,6 +124,22 @@ body{
 }
 .scrollable #three-two a{
     color: #F7A035;
+    display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+    text-decoration: none;
+}
+.scrollable #three-two a:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 30px;
+	background: #F7A035;
+	transition: width .4s ease, background-color .4s ease;
+}
+.scrollable #three-two a:hover:after {
+	width: 100%;
+	background: #F7A035;
 }
 .scrollable #three-three{
     display: table-cell;
@@ -298,6 +314,22 @@ body{
 }
 .scrollable #seven-two a{
     color: #FFF;
+    display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+    text-decoration: none;
+}
+.scrollable #seven-two a:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 30px;
+	background: #FFF;
+	transition: width .4s ease, background-color .4s ease;
+}
+.scrollable #seven-two a:hover:after {
+	width: 100%;
+	background: #FFF;
 }
 .scrollable #seven-three{
     display: table-cell;
@@ -312,3 +344,4 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
