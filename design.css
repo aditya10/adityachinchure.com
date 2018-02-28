@@ -122,6 +122,9 @@ body{
     font-family: "MuseoSans";
     color: #F7A035;
 }
+.scrollable #three-two a{
+    color: #F7A035;
+}
 .scrollable #three-three{
     display: table-cell;
     width: 40vw;
@@ -129,7 +132,7 @@ body{
 }
 .scrollable #three-three img{
     width: 40%;
-    padding-left: 10%;
+    padding-left: 20%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -294,9 +297,18 @@ body{
     color: #FFF;
 }
 .scrollable #seven-two a{
-    color: #fff;
+    color: #FFF;
 }
 .scrollable #seven-three{
     display: table-cell;
     width: 40vw;
+    vertical-align: middle;
+}
+.scrollable #seven-three img{
+    width: 50%;
+    padding-left: 25%;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
