@@ -298,6 +298,11 @@ body{
 .scrollable #six-three{
     display: table-cell;
     width: 40vw;
+    vertical-align: middle;
+}
+.scrollable #six-three img{
+    width: 60%;
+    padding-left: 20%;
 }
 
 
