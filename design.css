@@ -9,6 +9,8 @@
 body{
     height: 100%;
     overflow-x: hidden;
+	font-size: 32px;
+	 font-family: "MuseoSans";
 }
 .scrollable{
 
@@ -42,8 +44,7 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
+   
     color: #594790;
 }
 .scrollable #one-three{
@@ -81,8 +82,6 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
     color: #FFF;
 }
 .scrollable #two-three{
@@ -118,8 +117,6 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
     color: #F7A035;
 }
 .scrollable #three-two a{
@@ -188,8 +185,6 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
     color: #FFF;
 }
 .scrollable #four-two a{
@@ -221,6 +216,12 @@ body{
     padding: 10%;
     pointer-events:none;
 }
+.snapwidget-widget{
+	border:none; 
+	overflow:hidden;
+	max-height:650px;
+	min-height: 300px;
+}
 
 
 
@@ -250,8 +251,6 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
     color: #EFECC8;
 }
 .scrollable #five-three{
@@ -288,12 +287,10 @@ body{
     text-align: center;
 }
 .scrollable #six-two{
-    display: table-cell;
+   	display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 36px;
-    font-family: "MuseoSans";
-    color: #2B2E2D;
+    color: #EFECC8;
 }
 .scrollable #six-three{
     display: table-cell;
@@ -332,8 +329,6 @@ body{
     display: table-cell;
     width: 50vw;
     vertical-align: middle;
-    font-size: 32px;
-    font-family: "MuseoSans";
     color: #FFF;
 }
 .scrollable #seven-two a{
@@ -369,3 +364,51 @@ body{
     animation-timing-function: ease-in-out;
 }
 
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+	body{
+		font-size: 20px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+		font-size: 22px;
+	}
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+	body{
+		font-size: 24px;
+	}
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+	body{
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	body{
+		font-size: 20px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-height: 500px) and (max-height: 650px) {
+	body{
+		font-size: 24px;
+	}
+}
+/* tablets/desktops and up ----------- */
+@media (min-height: 650px) and (max-height: 900px) {
+	body{
+		font-size: 28px;
+	}
+}
+/* large desktops and up ----------- */
+@media screen and (min-height: 1200px) {
+	body{
+		font-size: 32px;
+	}
+}
