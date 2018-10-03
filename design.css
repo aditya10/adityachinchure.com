@@ -95,6 +95,9 @@ body {
 	max-width: 60%;
 	font-size: 20px;
 }
+.letter a {
+	color: coral;
+}
 .footer {
 	height: 100px;
 }
