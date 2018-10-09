@@ -76,19 +76,19 @@ body {
 	display: none;
 }
 .links #github {
-	background-color: #81DFB4;	
+	background-color: #1BE7FF;	
 }
 .links #linkedin {
-	background-color: #F1F8FF;	
+	background-color: #6EEB83;	
 }
 .links #technonerds {
-	background-color: #2C4B86;	
+	background-color: #E4FF1A;	
 }
 .links #unsplash {
-	background-color: #E9FBF6;	
+	background-color: #FFB800;	
 }
 .links #medium {
-	background-color: #000000;	
+	background-color: #FF5714;	
 }
 .letter{
 	margin: 0 auto;
@@ -100,4 +100,8 @@ body {
 }
 .footer {
 	height: 100px;
+}
+.footer p{
+	text-align: center;
+	padding-top: 70px;
 }
