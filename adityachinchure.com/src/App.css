@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Avenir-Black";
+    src: url("assets/Avenir-Black.ttf")
+	format("truetype");
+}
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("assets/Avenir-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url("assets/Avenir-Heavy.ttf") format("truetype");
+}
+body {
+  font-family: "Avenir-Medium";
+  line-height: 1.6;
+}
+.header {
+	display: table;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 60px;
+	height: 300px;
+	width: 100%;
+}
+.spacer{
+	display: inline-block;
+}
+.header .photo {
+	display: inline-table;
+	vertical-align: middle;
+	text-align: right;
+}
+.header .photo img{
+	width: auto;
+	vertical-align: middle;
+}
+.header .brief {
+	display: inline-block;
+	min-height: 180px;
+	vertical-align: middle;
+}
+.header .brief .name {
+	font-family: "Avenir-Black";
+	font-size: 40px;
+}
+.header .brief .points {
+	font-size: 20px;
+}
+.links-wrapper{
+  display: table;
+  margin: 0 auto;
+  padding: 50px;
+}
+.links {
+  display: table-row;
+  width: 1240px;
+}
+.links .link {
+  display: table-cell;
+  height: 248px;
+  width: 248px;
+  vertical-align: middle;
+  text-align: center;
+}
+.links .link:hover{
+  box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+.links a{
+  display: inline-block;
+}
+.links .link .brand-img {
+  display: inline-block;
+}
+.links .link .text {
+  display: none;
+}
+.links #github {
+  background-color: #1BE7FF;	
+}
+.links #linkedin {
+  background-color: #6EEB83;	
+}
+.links #technonerds {
+  background-color: #E4FF1A;	
+}
+.links #unsplash {
+  background-color: #FFB800;	
+}
+.links #medium {
+  background-color: #FF5714;	
+}
+.letter{
+  margin: 0 auto;
+  width: 1240px;
+  font-size: 20px;
+}
+.letter a {
+  color: coral;
+}
+.footer {
+  height: 100px;
+}
+.footer p{
+  text-align: center;
+  padding-top: 70px;
+}
+.experience{
+	width: 1240px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.classTitle{
+ 	font-family: "Avenir-Black";
+	color: #6EEB83;
+	font-size: 30px;
+}
+.list{
+	padding-top: 30px;
+}
+.experience-box{
+	display: block;
+	padding: 30px;
+}
+.experience-box .logo{
+	display: inline-block;
+	text-align: right;
+}
+.experience-box .logo img{
+	vertical-align: top;
+}
+.experience-box .brief{
+	display: inline-table;
+}
+.experience-box .brief .job{
+	font-family: "Avenir-Black";
+	font-size: 26px;
+}
+.experience-box .brief .job-info{
+	font-family: "Avenir-Heavy";
+	font-size: 18px;
+	color: #FF5714;
+}
+.experience-box .brief .job-description{
+	font-family: "Avenir-Medium";
+	font-size: 18px;
+}
