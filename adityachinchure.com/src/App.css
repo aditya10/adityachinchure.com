@@ -62,6 +62,8 @@ body {
   width: 248px;
   vertical-align: middle;
   text-align: center;
+  animation-name: fadeAndScale;
+	animation-duration: 0.4s;
 }
 .links .link:hover{
   box-shadow: 0px 0px 150px #000000;
@@ -75,6 +77,29 @@ body {
     transition: all 200ms ease-in;
     transform: scale(1.2);
 }
+@keyframes fadeAndScale {
+    0% {
+        opacity: 1;
+		z-index: 2;
+        transform: scale(1);
+		transition: all 200ms ease-in;
+		box-shadow: 0px 0px 0px #000000;
+    }
+	50% {
+		opacity: 1;
+		z-index: 2;
+		transform: scale(1.2);
+		transition: all 200ms ease-in;
+		box-shadow: 0px 0px 150px #000000;
+	}
+    100% {
+        opacity: 1;
+		z-index: 2;
+        transform: scale(1);
+		transition: all 200ms ease-in;
+		box-shadow: 0px 0px 0px #000000;
+    }
+}
 .links a{
   display: inline-block;
 }
@@ -85,19 +110,24 @@ body {
   display: none;
 }
 .links #github {
-  background-color: #1BE7FF;	
+  background-color: #1BE7FF;
+	animation-delay: 0.4s;
 }
 .links #linkedin {
-  background-color: #6EEB83;	
+  background-color: #6EEB83;
+	animation-delay: 0.6s;
 }
 .links #technonerds {
-  background-color: #E4FF1A;	
+  background-color: #E4FF1A;
+	animation-delay: 0.8s;
 }
 .links #unsplash {
-  background-color: #FFB800;	
+  background-color: #FFB800;
+	animation-delay: 1s;
 }
 .links #medium {
-  background-color: #FF5714;	
+  background-color: #FF5714;
+	animation-delay: 1.2s;
 }
 .letter{
   margin: 0 auto;
