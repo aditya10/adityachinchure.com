@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Letter extends Component {
   render() {
     return (
-       	<div class="col-lg-10 col-md-10 letter">
+       	<div class="col-lg-8 col-md-8 letter">
     			<p>
     				Hello,
     			</p>

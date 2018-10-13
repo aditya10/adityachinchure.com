@@ -37,7 +37,7 @@ class Experience extends Component {
       }
 	  
     return (
-		<div class="col-lg-10 col-md-10 col-sm-12 experience">
+		<div class="col-lg-8 col-md-8 col-sm-12 experience">
             <div class="classTitle">
               EXPERIENCE
             </div>

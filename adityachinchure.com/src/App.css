@@ -101,7 +101,6 @@ body {
 }
 .letter{
   margin: 0 auto;
-  width: 1240px;
   font-size: 20px;
 }
 .letter a {
@@ -115,7 +114,6 @@ body {
   padding-top: 70px;
 }
 .experience{
-	width: 1240px;
 	margin: 0 auto;
 	padding-top: 60px;
 }
@@ -153,4 +151,19 @@ body {
 .experience-box .brief .job-description{
 	font-family: "Avenir-Medium";
 	font-size: 18px;
+}
+.photography{
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.photography .text{
+  margin: 0 auto;
+	padding-top: 30px;
+  font-size: 20px;
+}
+.gallery{
+	padding: 30px 0px;
+}
+.gallery img{
+	width: 100%;
 }
