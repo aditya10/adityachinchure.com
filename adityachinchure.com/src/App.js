@@ -5,6 +5,8 @@ import Links from './components/Links.js';
 import Letter from './components/Letter.js';
 import Experience from './components/Experience.js';
 import Photography from './components/Photography.js';
+import Blog from './components/Blog.js';
+import Footer from './components/Footer.js';
 
 class App extends Component {
   render() {
@@ -14,13 +16,10 @@ class App extends Component {
         <Header />
         <Links />
         <Letter />
+		<Blog />
 		<Experience />
 		<Photography />
-
-    		<div class="footer">
-    			<p>Designed and coded by Aditya Chinchure. Copyright 2018.</p>
-    		</div>
-
+		<Footer />
       </div>
     );
   }

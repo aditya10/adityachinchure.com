@@ -197,3 +197,44 @@ body {
 .gallery img{
 	width: 100%;
 }
+.blog{
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.blog .text{
+  margin: 0 auto;
+	padding-top: 30px;
+  font-size: 20px;
+}
+.blog .spacer{
+	height: 20px;
+}
+.fm-post-wrapper{
+	width: 50%;
+	float: left;
+	height: 400px;
+	padding: 20px;
+}
+.fm-post{
+
+}
+.fm-post-image img{
+	padding-bottom: 20px;
+}
+.fm-post-title a{
+	font-family: "Avenir-Black";
+	font-size: 26px;
+	color: #FF5714;
+}
+.fm-post-sub-title{
+	font-family: "Avenir-Medium";
+	font-size: 18px;
+}
+.fm-post-read-more{
+	font-family: "Avenir-Heavy";
+	font-size: 18px;
+	color: #FF5714;
+}
+.footer{
+	margin: 0 auto;
+}
