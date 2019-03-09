@@ -9,6 +9,9 @@
 # production
 /build
 
+# Unsplash
+/src/components/UnsplashConfig.js
+
 # misc
 .DS_Store
 .env.local
