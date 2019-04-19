@@ -1,0 +1,15 @@
+.blog {
+    padding-top: 90px;
+}
+
+.blog .spacer {
+    height: 60px;
+}
+
+.fm-post .fm-post-title a {
+    color: #484646;
+}
+
+.fm-post .fm-post-sub-title {
+    color: #969696;
+}

@@ -1,0 +1,288 @@
+
+
+h1 {
+    font-family: "Metric";
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-family: "Metric";
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: "Avenir-Medium";
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+a {
+    font-family: "Metric";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+
+.links {
+    display: table-row;
+    max-height: 10vh;
+}
+
+.links .link {
+    display: table-cell;
+    height: 10vh;
+    width: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    animation-name: fadeAndScale;
+    animation-duration: 0.4s;
+}
+.links a {
+    display: inline-block;
+    max-height: 10vh;
+}
+
+.links .link .brand-img {
+    display: inline-block;
+    max-height: 10vh;
+}
+
+.links .link .brand-img img {
+    max-height: 10vh;
+}
+
+.links .link .text {
+    display: none;
+}
+
+.links #github {
+    background-color: #1BE7FF;
+    animation-delay: 0.4s;
+}
+
+.links #linkedin {
+    background-color: #6EEB83;
+    animation-delay: 0.6s;
+}
+
+.links #technonerds {
+    background-color: #E4FF1A;
+    animation-delay: 0.8s;
+}
+
+.links #unsplash {
+    background-color: #FFB800;
+    animation-delay: 1s;
+}
+
+.links #medium {
+    background-color: #FF5714;
+    animation-delay: 1.2s;
+}
+
+.header {
+    display: table;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+}
+
+.spacer {
+    display: inline-block;
+}
+
+.header .photo {
+    display: inline-table;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.header .photo img {
+    width: auto;
+    vertical-align: middle;
+}
+
+.header .brief {
+    display: inline-block;
+    min-height: 180px;
+    vertical-align: middle;
+}
+
+.header .brief .name {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header .brief .points {
+    font-size: 20px;
+}
+
+.links-wrapper {
+    display: table;
+    float: right;
+}
+.letter {
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 1240px;
+}
+
+.letter a {
+    color: coral;
+}
+
+.footer {
+    height: 100px;
+    max-width: 1240px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.experience {
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1240px;
+}
+
+.classTitle {
+    font-family: "Avenir-Black";
+    color: #6EEB83;
+    font-size: 30px;
+}
+
+.list {
+    padding-top: 30px;
+}
+
+.experience-box {
+    display: block;
+    padding: 30px;
+}
+
+.experience-box .logo {
+    display: inline-block;
+    text-align: right;
+}
+
+.experience-box .logo img {
+    vertical-align: top;
+}
+
+.experience-box .brief {
+    display: inline-table;
+}
+
+.experience-box .brief .job {
+    font-family: "Avenir-Black";
+    font-size: 26px;
+}
+
+.experience-box .brief .job-info {
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: #FF5714;
+}
+
+.experience-box .brief .job-description {
+    font-family: "Avenir-Medium";
+    font-size: 18px;
+}
+
+.photography {
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1240px;
+}
+
+.photography .text {
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.lightwidget-widget{
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+}
+
+.gallery {
+    padding: 30px 0px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.blog {
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1240px;
+}
+
+.blog .text {
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.blog .spacer {
+    height: 20px;
+}
+
+.fm-post-wrapper {
+    width: 50%;
+    float: left;
+    height: 400px;
+    padding: 20px;
+}
+
+.fm-post {
+
+}
+
+.fm-post-image img {
+    padding-bottom: 20px;
+}
+
+.fm-post-title a {
+    font-family: "Avenir-Black";
+    font-size: 26px;
+    color: #FF5714;
+}
+
+.fm-post-sub-title {
+    font-family: "Avenir-Medium";
+    font-size: 18px;
+}
+
+.fm-post-read-more {
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: #FF5714;
+}
+
+.footer {
+    margin: 0 auto;
+}

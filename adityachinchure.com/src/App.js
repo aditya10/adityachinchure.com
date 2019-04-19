@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header.js';
-import Links from './components/Links.js';
-import Letter from './components/Letter.js';
-import Experience from './components/Experience.js';
-import Photography from './components/Photography.js';
-import Blog from './components/Blog.js';
-import Footer from './components/Footer.js';
-import PhotoHeader from './components/PhotoHeader.js';
-import {getUnsplashPhotos} from "./components/UnsplashConfig.js";
+import {BrowserRouter, Route} from "react-router-dom";
+import Homepage from "./components/Homepage/Homepage";
+import Hashtagger from "./components/Hashtagger/Hashtagger";
 
 class App extends Component {
   constructor(props) {
@@ -18,30 +12,12 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-    this.generateRandomImage()
-  }
-
-  generateRandomImage() {
-    var links = [];
-    getUnsplashPhotos.then(json => {
-      json.forEach(photo => {links.push(photo.links.download);});
-      var rand = Math.floor(Math.random() * 30);
-      this.setState({source: links[rand]});
-    });
-
-  }
-
   render() {
     return (
-      <div className="App">
-        <PhotoHeader source={this.state.source}/>
-        <Letter />
-		    <Blog />
-		    <Experience />
-		    <Photography />
-		    <Footer />
-      </div>
+      <BrowserRouter>
+        <Route path="/" component={Homepage} exact />
+        <Route path="/hashtagger" component={Hashtagger} exact/>
+      </BrowserRouter>
     );
   }
 }
