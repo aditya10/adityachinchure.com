@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Hashtagger extends Component {
   render() {
     return (
-      <div class="technology">
+      <div class="hashtagger">
         <div className="image">
           <img src='../assets/technology.png'></img>
         </div>
         <div className="text">
           <div className="textContainer">
-            <h2>Technology</h2>
+            <h2>Hashtagger</h2>
             <p>I started writing code when I was 15 and I never stopped. As a Computer Science student at UBC, I have worked on several academic and personal projects.<br/><br/>
               I have internship experience as a full-stack developer, software engineer and machine learning engineer.</p><br/>
             <a href="assets/Resume.pdf">Download my Resume</a><br/>

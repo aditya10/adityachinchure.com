@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './Homepage.css';
 import Photography from '../Photography/Photography.js';
 import Blog from '../Blog/Blog.js';
-import Footer from '../Footer.js';
+import Footer from '../Footer/Footer.js';
 import PhotoHeader from '../PhotoHeader/PhotoHeader.js';
-import {getUnsplashPhotos} from "../../Utility/UnsplashConfig.js";
+import {getUnsplashPhotos} from "../../utilities/UnsplashConfig.js";
 import Nametag from '../Nametag/Nametag.js';
 import Technology from "../Technology/Technology";
 
