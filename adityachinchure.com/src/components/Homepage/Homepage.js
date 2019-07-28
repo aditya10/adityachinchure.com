@@ -3,10 +3,8 @@ import './Homepage.css';
 import Photography from '../Photography/Photography.js';
 import Blog from '../Blog/Blog.js';
 import Footer from '../Footer/Footer.js';
-import PhotoHeader from '../PhotoHeader/PhotoHeader.js';
 import Header from '../Header/Header';
 import {getUnsplashPhotos} from "../../utilities/UnsplashConfig.js";
-import Nametag from '../Nametag/Nametag.js';
 import Technology from "../Technology/Technology";
 
 class Homepage extends Component {
