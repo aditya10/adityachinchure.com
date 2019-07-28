@@ -11,6 +11,6 @@ const unsplash = new Unsplash({
   secret: "5d25fa3495c3c848eff2bb20f8f7f8daf5a1c25767a4f10efc2b09dbb80977cf"
 });
 
-const getUnsplashPhotos = unsplash.users.photos("adityachinchure", 1, 30, "popular", false).then(toJson);
+const getUnsplashPhotos = unsplash.collections.getCollectionPhotos(8236446, 1, 15, "popular").then(toJson);
 
 export {getUnsplashPhotos};
