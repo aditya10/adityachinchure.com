@@ -1,0 +1,40 @@
+.photo-header {
+    height: 100vh;
+    max-width: 100vw;
+}
+
+.photo-header .photo {
+    height: 90vh;
+}
+
+.photo-header .photo img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-header .details-row {
+    height: 10vh;
+}
+
+.photo-header .details-row .profile {
+    height: 10vh;
+}
+
+.photo-header .details-row .profile .name {
+    height: 10vh;
+    font-weight: bold;
+    font-size: 4vh;
+    line-height: 4vh;
+    margin-top: 4vh;
+    font-family: 'Metric';
+    font-weight: bold;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icons {
+    float: right;
+}

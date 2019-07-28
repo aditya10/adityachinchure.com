@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("assets/Avenir-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("assets/Avenir-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("assets/Avenir-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Metric";
+  src: url("assets/Metric-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Metric";
+  src: url("assets/Metric-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
