@@ -1,6 +1,6 @@
 # Aditya's Website
 
-The website is live! Visit adityachinchure.com
+The website is live! Visit www.adityachinchure.com
 
 ---
 
